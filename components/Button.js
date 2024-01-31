@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, View, Pressable, Text } from 'react-native';
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+//This is a test comment to test committing to github
 
 export default function Button({ label }) {
     const [theme, setTheme] = useState("unchecked");
