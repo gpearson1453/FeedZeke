@@ -2,12 +2,8 @@ import React, { useState } from 'react';
 import { StyleSheet, View, Pressable, Text } from 'react-native';
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-<<<<<<< Updated upstream
-
-=======
 //This is a test comment to test committing to github
 //This is a test comment to test pull requests
->>>>>>> Stashed changes
 export default function Button({ label }) {
     const [theme, setTheme] = useState("unchecked");
     const handlePress = () => {
